@@ -1,4 +1,5 @@
 name: Metrics
+
 on:
   schedule:
     - cron: "0 */12 * * *"
@@ -15,59 +16,50 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          # Token
           token: ${{ secrets.GITHUB_TOKEN }}
 
+          # User config
           user: viettuan2011
           template: classic
           theme: dark
           config_timezone: Asia/Ho_Chi_Minh
 
-          # Header
+          # ===== HEADER / BASIC INFO =====
           plugin_header: yes
+          plugin_followup: yes
 
-          # Contributions calendar (3D kiểu trong ảnh)
+          # ===== CONTRIBUTIONS CALENDAR (3D) =====
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # GitHub stats
+          # ===== RECENT ACTIVITY =====
           plugin_activity: yes
           plugin_activity_limit: 5
 
-          # Languages bar
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_threshold: 2%
-
-          # Coding habits (giờ commit)
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
-          # Achievements
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-
-          # Projects / roadmap
-          plugin_projects: yes
-          plugin_projects_limit: 5
-
-          # Coding habits (hour + day)
+          # ===== CODING HABITS (HOUR + DAY) =====
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
 
-          # Language activity
+          # ===== LANGUAGE ACTIVITY =====
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_threshold: 2%
           plugin_languages_details: bytes-size, percentage
 
-          # Technologies & topics
+          # ===== TECHNOLOGIES & TOPICS (ICON ROW) =====
           plugin_topics: yes
           plugin_topics_limit: 30
           plugin_topics_mode: mastered
           plugin_topics_sort: stars
 
+          # ===== ACHIEVEMENTS =====
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+
+          # ===== PROJECTS / ROADMAP =====
+          plugin_projects: yes
+          plugin_projects_limit: 5
