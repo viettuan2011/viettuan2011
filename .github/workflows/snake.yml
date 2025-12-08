@@ -1,51 +1,51 @@
-name: Generate Snake
+# name: Generate Snake
 
-on:
-  schedule:
-    # Chạy mỗi 12 tiếng
-    - cron: "0 */12 * * *"
+# on:
+#   schedule:
+#     # Chạy mỗi 12 tiếng
+#     - cron: "0 */12 * * *"
   
-  # Cho phép chạy thủ công
-  workflow_dispatch:
+#   # Cho phép chạy thủ công
+#   workflow_dispatch:
   
-  # Chạy khi push vào main
-  push:
-    branches:
-    - main
+#   # Chạy khi push vào main
+#   push:
+#     branches:
+#     - main
 
-# QUAN TRỌNG: Thêm permissions này
-permissions:
-  contents: write
+# # QUAN TRỌNG: Thêm permissions này
+# permissions:
+#   contents: write
 
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
+# jobs:
+#   generate:
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 10
     
-    steps:
-      # Checkout code
-      - name: Checkout
-        uses: actions/checkout@v3
+#     steps:
+#       # Checkout code
+#       - name: Checkout
+#         uses: actions/checkout@v3
       
-      # Generate snake animation
-      - name: Generate Snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: viettuan2011
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#       # Generate snake animation
+#       - name: Generate Snake
+#         uses: Platane/snk/svg-only@v3
+#         with:
+#           github_user_name: viettuan2011
+#           outputs: |
+#             dist/github-contribution-grid-snake.svg
+#             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      # Push animation to output branch
-      - name: Push to output branch
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -b output
-          git add -f dist/
-          git commit -m "Update snake animations" || exit 0
-          git push -f origin output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#       # Push animation to output branch
+#       - name: Push to output branch
+#         run: |
+#           git config --global user.name "github-actions[bot]"
+#           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+#           git checkout -b output
+#           git add -f dist/
+#           git commit -m "Update snake animations" || exit 0
+#           git push -f origin output
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
