@@ -5,7 +5,7 @@
 
 <div align="center">
   
-  ![Snake animation](https://github.com/pnnbao97/pnnbao97/blob/output/dist/github-contribution-grid-snake-dark.svg)
+  ![Snake animation](https://github.com/viettuan2011/viettuan2011/blob/output/dist/github-contribution-grid-snake-dark.svg)
 
 </div>
 <!--
