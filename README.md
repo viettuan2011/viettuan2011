@@ -1,5 +1,13 @@
 ## Hi there 👋
 
+
+## 🐍 Contribution Activity
+
+<div align="center">
+  
+  ![Snake animation](https://github.com/pnnbao97/pnnbao97/blob/output/dist/github-contribution-grid-snake-dark.svg)
+
+</div>
 <!--
 **viettuan2011/viettuan2011** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
