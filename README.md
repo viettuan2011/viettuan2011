@@ -1,5 +1,8 @@
 ## Hi there 👋
 
+<p align="center">
+  <img src="./github-metrics.svg" />
+</p>
 
 ## 🔭 I’m currently working on ...
 ## 🌱 I’m currently learning ...
