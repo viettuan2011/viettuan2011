@@ -1,11 +1,29 @@
 ## Hi there 👋
 
 
+## 🔭 I’m currently working on ...
+## 🌱 I’m currently learning ...
+## 👯 I’m looking to collaborate on ...
+## 🤔 I’m looking for help with ...
+## 💬 Ask me about ...
+## 😄 Pronouns: ...
+## ⚡ Fun fact: ...
+
+
 ## 🐍 Contribution Activity
 
 <div align="center">
   
   ![Snake animation](https://github.com/viettuan2011/viettuan2011/blob/output/dist/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+## 📫 How to reach me
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:[tranviettuan2k1@gmail.com)
+[![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/tvtuan2011)
 
 </div>
 
