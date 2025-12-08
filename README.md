@@ -3,15 +3,12 @@
 
 ## 🐍 Contribution Activity
 
-<!-- <div align="center">
+<div align="center">
   
   ![Snake animation](https://github.com/viettuan2011/viettuan2011/blob/output/dist/github-contribution-grid-snake-dark.svg)
 
-</div> -->
-
-<div align="center">
-    ![Pacman](https://github.com/viettuan2011/viettuan2011/blob/output/dist/pacman.svg)
 </div>
+
 <!--
 **viettuan2011/viettuan2011** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
