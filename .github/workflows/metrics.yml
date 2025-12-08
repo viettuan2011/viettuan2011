@@ -33,17 +33,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # ===== RECENT ACTIVITY =====
-          plugin_activity: yes
-          plugin_activity_limit: 5
-
-          # ===== CODING HABITS (HOUR + DAY) =====
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
           # ===== LANGUAGE ACTIVITY =====
           plugin_languages: yes
           plugin_languages_limit: 8
@@ -55,11 +44,3 @@ jobs:
           plugin_topics_limit: 30
           plugin_topics_mode: mastered
           plugin_topics_sort: stars
-
-          # ===== ACHIEVEMENTS =====
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-
-          # ===== PROJECTS / ROADMAP =====
-          plugin_projects: yes
-          plugin_projects_limit: 5
