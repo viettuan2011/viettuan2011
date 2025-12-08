@@ -37,13 +37,6 @@
 
 </div>
 
-<details>
-  <summary><b>☄️ Github Streaks</b></summary>
-
-  <br />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=viettuan2011&hide_border=true" />
-</details>
-
 <!--
 **viettuan2011/viettuan2011** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
