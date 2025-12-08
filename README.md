@@ -2,7 +2,7 @@
 
 [![Facebook Badge](https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://facebook.com/tvtuan2011)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/tranviettuan)
-[![Email Badge](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:[tranviettuan2k1@gmail.com)
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=Instagram&logoColor=white)](https://www.instagram.com/v_tuaans/)
 
 ### Glad to see you here! 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=viettuan2011&label=Profile%20views&color=0e75b6&style=flat" alt="viettuan2011" /> </p>
@@ -37,14 +37,12 @@
 
 </div>
 
-## 📫 How to reach me
+<details>
+  <summary><b>☄️ Github Streaks</b></summary>
 
-<div align="center">
-
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:[tranviettuan2k1@gmail.com)
-[![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/tvtuan2011)
-
-</div>
+  <br />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=viettuan2011&hide_border=true" />
+</details>
 
 <!--
 **viettuan2011/viettuan2011** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
